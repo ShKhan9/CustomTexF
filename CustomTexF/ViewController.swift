@@ -67,7 +67,7 @@ class ViewController: UIViewController {
     //Not getting Called
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        print("ddsdsdsds")
+        print("shouldChangeCharactersIn")
         return true
         
     }
